@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.intro, .about, .resume, .portfolio, .contact {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+.intro img, .portfolio .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project {
+    margin: 1rem 0;
+}
